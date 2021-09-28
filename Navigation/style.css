@@ -1,0 +1,66 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.simple{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.simple a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+.simple a:hover{
+    color: chartreuse;
+}
+.tabs{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.tabs nav{
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    margin-bottom: -1px;
+}
+.tabs a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 8px 8px 0 0;
+    padding: 10px 20px 8px 20px;
+    background-image: linear-gradient(#ddd, #bbb);
+}
+.tabs a.active, .tabs a.active:hover{
+    background-image: none;
+    border-bottom: 1px solid white;
+}
+.tabs a:hover{
+    background-image: linear-gradient(#eee, #ddd);
+}
+.drop-down{
+    position: relative;
+}
+.drop-down li{
+    display: inline;
+}
+.undermenu{
+    position: absolute;
+    top: 15px;
+}
+.expand{
+    position: relative;
+}
+.undermenu li{
+    display: block;
+
+}
