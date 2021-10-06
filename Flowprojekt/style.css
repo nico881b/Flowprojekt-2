@@ -1,0 +1,203 @@
+/* forside */
+html{
+    height: 100%;
+}
+.uppername{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   display: flex;
+   justify-content: center;
+   font-size: 40px;
+}
+
+.tabs{
+    display: flex;
+    justify-content: center;
+    border: 1px  solid rgb(0, 0, 0);
+    margin: -10px;
+    font-size: 18px;
+}
+.tabs nav{
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    margin-bottom: -1px;
+}
+.tabs a{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+   
+    padding: 10px 20px 8px 20px;
+}
+.tabs a:hover{
+   color: #658B82;
+}
+.velkommen{
+    display: flex;
+   justify-content: center;
+   font-size: 25px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.indexvideo{
+    display: flex;
+    justify-content: center; 
+}
+.kontaktindex{
+    display: flex;
+   justify-content: center;
+   font-size: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navn{
+    display: flex;
+   justify-content: center; 
+   font-family: Arial, Helvetica, sans-serif;
+}
+.navn-text{
+    margin: 3px;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.email-text{
+    margin: 3px;
+}
+.telefon{ display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.telefon-text{
+    margin: 3px;
+}
+.besked{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.send{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.SoMe{
+    display: flex;
+    justify-content: center;
+}
+.sociale{
+    display: flex;
+    margin: 5px;
+}
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    border: 1px solid black;
+    display: flex;
+   justify-content: center;
+   margin: 50px -10px 0px -10px;
+   border-bottom: white solid;
+}
+.footertext{
+    font-size: 13px;
+}
+/* forside slut */
+
+
+
+
+
+/* kompetencer */
+.kompetencer{
+    display: flex;
+   justify-content: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.photo-xd{
+    border: none;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.photo-xd a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 75px;
+}
+.film-kod{
+    border: none;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.film-kod a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 75px;
+}
+.photoshop-xd{
+    display: flex;
+    justify-content: center;
+}
+.filmora-kodning{
+    display: flex;
+    justify-content: center;
+}
+/* kompetencer slut */
+
+/* om mig */
+.ommig{
+    display: flex;
+   justify-content: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.infotext{
+    display: flex;
+}
+.nico{
+    display: flex;  
+    height: 500px;
+    width: 40%;
+    margin: 0px;
+}
+
+.om-mig-text{
+    display: flex;
+    width: 40%;
+    margin: 0px;
+}
+.container{
+    margin: 5px auto;
+    width: 50%;
+    padding: 8px;
+}
+.img{
+    float: left;
+    width: 380px;
+    height: 500px;
+    padding: 0 10px 0 0;
+}
+.container-text{
+    text-align: left;
+}
+.cv a{
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* om mig slut */
+
+/* kontakt */
+.kontakt{
+    display: flex;
+   justify-content: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* kontakt slut */
